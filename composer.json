@@ -8,5 +8,10 @@
     ],
     "require": {
         "lucasw/son-laravel-location": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pages" : "./"
+        }
     }
 }
